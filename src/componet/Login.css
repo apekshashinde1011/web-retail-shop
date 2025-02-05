@@ -1,0 +1,101 @@
+/* Cyberpunk Neon Glow Login Form */
+body {
+    background-color: #697bca;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    width: 380px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(15, 15, 15, 0.8);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    border: 2px solid rgba(0, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  
+  .login-container h2 {
+    color: cyan;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .input-group {
+    position: relative;
+    margin: 15px 0;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px 50px;
+    border: 2px solid cyan;
+    border-radius: 30px;
+    font-size: 16px;
+    background: transparent;
+    color: cyan;
+    outline: none;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3);
+  }
+  
+  .input-field::placeholder {
+    color: rgba(0, 255, 255, 0.6);
+  }
+  
+  .input-field:focus {
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.8);
+  }
+  
+  .input-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: cyan;
+    font-size: 18px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0px 0px 15px rgba(255, 0, 255, 0.5);
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(45deg, #00ffff, #ff00ff);
+    box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.8);
+    transform: scale(1.05);
+  }
+  
+  .forgot-password {
+    margin-top: 12px;
+    font-size: 14px;
+    color: cyan;
+  }
+  
+  .forgot-password a {
+    color: #ff80ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
